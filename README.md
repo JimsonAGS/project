@@ -1,4 +1,5 @@
 Project on secure login and signup.
 
-![SecureLoginSignup](https://user-images.githubusercontent.com/99163376/187014540-d69ebc1f-43f3-4434-b961-37154c638b3b.png)
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/99163376/187014575-867a6db3-74f4-4e51-a3b2-fbb352baf180.svg)
+
 
