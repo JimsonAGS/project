@@ -11,7 +11,8 @@
 
 <%
    response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
-   if(session.getAttribute("user")==null){
+   if(session.getAttribute("123key123")==null){
+        session.removeAttribute("user");
     	response.sendRedirect("login.jsp");
     }
 %>
