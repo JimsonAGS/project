@@ -19,6 +19,7 @@ public void doGet(HttpServletRequest request, HttpServletResponse response)  thr
         String k=(String) session.getAttribute("k");
         String ke1=request.getParameter("key"); 
         if(ke1.equals(k)) {
+		session.setAttribute("123key123", ke1);
         	response.sendRedirect("Wel.jsp");
         }
         else {
