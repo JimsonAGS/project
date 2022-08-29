@@ -8,11 +8,11 @@
 </head>
 <body>
 <H3>waiting page</H3>
-<%
 
-      
 
-%>
+<form id=lol action="wait" method="Post"></form>
+<script>document.getElementById('lol').submit();</script>
+
 
 
 </body>
