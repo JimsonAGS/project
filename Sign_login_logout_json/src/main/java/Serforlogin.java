@@ -59,16 +59,7 @@ public class Serforlogin extends HttpServlet{
             	session.setAttribute("user", user);
             	session.setAttribute("k", key);
                 //out.println("<a href='Sec?key="+key+"'>Login</a>");
-                try {
-					Thread.sleep(10000);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-                
-                session.removeAttribute("k");
-                RequestDispatcher r = request.getRequestDispatcher("login.jsp");
-                out.println("<font <font color=#001f3f>The link is expired</font>");
+                RequestDispatcher r = request.getRequestDispatcher("Waitingpage.jsp");
                 r.include(request, response);
                 out.close();
                 break;
